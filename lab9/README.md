@@ -29,3 +29,8 @@ Results:
             -fitness_calls: 56860
             -num_of_generations: 2838
             -best_fit_individual: 0.9955666677899999
+
+Peer Reviews:
+Made and received from:
+-https://github.com/giuliuss
+-https://github.com/lorenzobn
