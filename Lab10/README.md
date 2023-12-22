@@ -39,4 +39,4 @@ O as agent (second player):
     Percentage wins of the agent: 53.6%
     Percentage wins of the random player: 38.6%
     Percentage of draws: 7.8%
-    Percentage wins of the agent with respect to the random player: 58.13449023861171%
+    Percentage wins of the agent with respect to the random player: 58.13449023861171% 
