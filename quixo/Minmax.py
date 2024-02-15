@@ -126,4 +126,4 @@ def test_minmax(total_games,depths):
         print(f"Wins: {total_wins}/{total_games} with depth: {depth}")
 
 if __name__ == '__main__':
-    test_minmax(100,[2])
+    test_minmax(10,[2])
