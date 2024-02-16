@@ -74,7 +74,7 @@ class MCTSPlayer(Player):
         if state_key in self.cache:
             return self.cache[state_key]
         # walk through 100 iterations
-        for iteration in range(50): 
+        for iteration in range(100): 
             # select a node (selection phase)
             node = self.select(self.root)
             
