@@ -96,9 +96,6 @@ class Game(object):
             ok = False
             counter = 0
             while not ok:
-                counter +=1
-                if counter >= 100:
-                  print("Stucked")
                 from_pos, slide = players[self.current_player_idx].make_move(
                     self)
                 ok = self.__move(from_pos, slide, self.current_player_idx)
