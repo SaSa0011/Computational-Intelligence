@@ -81,7 +81,7 @@ class QLearningPlayer(Player):
         self.Q[(state_key, move)] = (1 - self.alpha) * self.Q[(state_key, move)] + self.alpha * (reward + self.dis_factor * max_next_Q)
     
     def decay_epsilon(self, episode):
-        self.epsilon = max(self.epsilon * (1 / (1 + self.decay_rate * episode)), 0.01)  # Assicurati che epsilon non scenda sotto 0.01
+        self.epsilon = max(self.epsilon * (1 / (1 + self.decay_rate * episode)), 0.01)
 
     def make_move(self, game: 'Game') -> tuple[tuple[int, int], Move]:
         return self.choose_move(game.get_board(),game.getPossibleMoves(game.get_current_player()),game)
